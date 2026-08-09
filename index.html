@@ -12,21 +12,25 @@
       height: 600px;
       box-shadow: 0 0 10px rgba(0,0,0,1);
     }
-    .js-play-button, .js-pause-button, .js-volume-button, .js-mute-button {
+    .js-play-button, .js-pause-button, .js-volume-button, .js-mute-button, .js-fullscreen-button {
       font-size: 15pt;
       color: white;
       border: white;
       cursor: pointer;
-      background-color: black;
+      background-color: transparent;
       width: 40px;
       height: 40px;
     }
+    .js-fullscreen-button--flex {
+      margin-left: auto;
+    }
+
     .js-video-container {
       display: flex;
       flex-grow: 1;
     }
     .buttons-background {
-      background-color:black;
+      background-color: black;
       box-shadow: 0 0 10px rgba(0,0,0,1);
       display: flex;
       gap: 10px;
@@ -50,7 +54,10 @@
       </button>
       <button class="js-mute-button" type="button" aria-label="Mute">
         <i class="fa fa-volume-up" aria-hidden="true"></i>
-      </button>      
+      </button>
+      <button class="js-fullscreen-button js-fullscreen-button--flex" type="button" aria-label="Fullscreen">
+        <i class="fa fa-expand" aria-hidden="true"></i>
+      </button> 
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
