@@ -5,7 +5,11 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style type="text/css">
-    button {
+    .player {
+      width: 800px;
+      height: 600px;
+    }
+    .js-play-button, .js-pause-button {
       color: white;
       border: white;
       cursor: pointer;
@@ -13,12 +17,20 @@
       width: 30px;
       height: 30px;
     }
+    .js-video-container {
+      width: 100%;
+      height: 100%;
+    }
+    .buttons-background {
+      background-color:black;
+    }
+
   </style>
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    <div class="buttons_background" style="background-color:black;" style="width: 100px; height: 100px">
+  <div class="player" id="player">
+    <div class="js-video-container"></div>
+    <div class="buttons-background" >
       <button class="js-play-button" type="button" aria-label="Play">
         <i class="fa fa-play" aria-hidden="true"></i>
       </button>
