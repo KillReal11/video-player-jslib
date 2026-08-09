@@ -12,7 +12,7 @@
       height: 600px;
       box-shadow: 0 0 10px rgba(0,0,0,1);
     }
-    .js-play-button, .js-pause-button {
+    .js-play-button, .js-pause-button, .js-volume-button, .js-mute-button {
       color: white;
       border: white;
       cursor: pointer;
@@ -23,7 +23,7 @@
       flex-grow: 1;
     }
     .buttons-background {
-      background-color:green;
+      background-color:black;
       box-shadow: 0 0 10px rgba(0,0,0,1);
     }
 
@@ -39,6 +39,12 @@
       <button class="js-pause-button" type="button" aria-label="Pause">
         <i class="fa fa-pause" aria-hidden="true"></i>
       </button>
+      <button class="js-volume-button" type="button" aria-label="Volume">
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      </button>
+      <button class="js-mute-button" type="button" aria-label="Mute">
+        <i class="fa fa-volume-off" aria-hidden="true"></i>
+      </button>      
     </div>
     <!-- Here can be placed player controls: play and volume buttons -->
   </div>
