@@ -17,7 +17,9 @@
       color: white;
       border: white;
       cursor: pointer;
-      background-color: transparent;
+      background-color: black;
+      width: 40px;
+      height: 40px;
     }
     .js-video-container {
       display: flex;
@@ -26,6 +28,9 @@
     .buttons-background {
       background-color:black;
       box-shadow: 0 0 10px rgba(0,0,0,1);
+      display: flex;
+      gap: 10px;
+      align-items: center;
     }
 
   </style>
@@ -47,7 +52,6 @@
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>      
     </div>
-    <!-- Here can be placed player controls: play and volume buttons -->
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
