@@ -5,7 +5,7 @@
 
 Минимальный набор инструментов, который нужен для создания своего видеоплеера. Все элементы можно кастомизировать на свой вкус и цвет.
 
-![max example](max.gif)
+<img width="493" height="374" alt="max" src="https://github.com/user-attachments/assets/4d5838b0-6b1f-4aef-8e59-ec8b20375c0d" />
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
