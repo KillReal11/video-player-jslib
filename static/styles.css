@@ -1,0 +1,30 @@
+    .player {
+      display: flex;
+      flex-direction: column;
+      width: 800px;
+      height: 600px;
+      box-shadow: 0 0 10px rgba(0,0,0,1);
+    }
+    .control-button {
+      font-size: 15pt;
+      color: white;
+      border: white;
+      cursor: pointer;
+      background-color: transparent;
+      width: 40px;
+      height: 40px;
+    }
+    .control-button--fullscreen {
+      margin-left: auto;
+    }
+    .video-container {
+      display: flex;
+      flex-grow: 1;
+    }
+    .buttons-background {
+      background-color: black;
+      box-shadow: 0 0 10px rgba(0,0,0,1);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
